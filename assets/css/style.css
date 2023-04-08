@@ -350,9 +350,9 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background: #fff;
-  padding-top: 82px;
+  padding-top: 122px;
 }
 
 #hero h1 {
@@ -422,7 +422,7 @@ h6 {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    height: 120vh;
   }
 
   #hero .animated {
@@ -755,11 +755,11 @@ section {
 .title-service1{
   color:rgba(88,133,239,1);
   font-weight: 600;
- }
+}
 
- .cardComponent1:hover .content .title-service1{
-   color: white;
- }
+.cardComponent1:hover .content .title-service1{
+ color: white;
+}
 
 
 
@@ -804,11 +804,11 @@ section {
 .title-service2{
   color:#E29587;
   font-weight: 600;
- }
+}
 
- .cardComponent2:hover .content .title-service2{
-   color: white;
- }
+.cardComponent2:hover .content .title-service2{
+ color: white;
+}
 
 .cardComponent2:hover::after{
   clip-path: circle(100%);
@@ -851,11 +851,11 @@ section {
 .title-service3{
   color:#43C6AC;
   font-weight: 600;
- }
+}
 
- .cardComponent3:hover .content .title-service3{
-   color: white;
- }
+.cardComponent3:hover .content .title-service3{
+ color: white;
+}
 
 
 
@@ -883,8 +883,8 @@ section {
 .cardComponent4::after{
   content: '';
   background: #BE93C5;
-background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);
-background: linear-gradient(to right, #BE93C5 , #7BC6CC);
+  background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);
+  background: linear-gradient(to right, #BE93C5 , #7BC6CC);
 
   border-radius: 15px;
   height: 100%;
@@ -900,11 +900,11 @@ background: linear-gradient(to right, #BE93C5 , #7BC6CC);
 .title-service4{
   color:#BE93C5;
   font-weight: 600;
- }
+}
 
- .cardComponent4:hover .content .title-service4{
-   color: white;
- }
+.cardComponent4:hover .content .title-service4{
+ color: white;
+}
 
 
 .cardComponent4:hover::after{
@@ -931,8 +931,8 @@ background: linear-gradient(to right, #BE93C5 , #7BC6CC);
 .cardComponent5::after{
   content: '';
   background: #FF5F6D;
-background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);
-background: linear-gradient(to right, #FFC371, #FF5F6D);
+  background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);
+  background: linear-gradient(to right, #FFC371, #FF5F6D);
   border-radius: 15px;
   height: 100%;
   width: 100%;
@@ -947,11 +947,11 @@ background: linear-gradient(to right, #FFC371, #FF5F6D);
 .title-service5{
   color:#FFC371;
   font-weight: 600;
- }
+}
 
- .cardComponent5:hover .content .title-service5{
-   color: white;
- }
+.cardComponent5:hover .content .title-service5{
+ color: white;
+}
 
 
 
@@ -1003,10 +1003,10 @@ background: linear-gradient(to right, #FFC371, #FF5F6D);
   color: #3ec6c9;
   font-weight: 600;
   font-size: 24px;
- }
+}
 
 
- .modelComponent1{
+.modelComponent1{
   background: white;
   cursor: pointer;
   border-radius: 15px;
@@ -1027,10 +1027,10 @@ background: linear-gradient(to right, #FFC371, #FF5F6D);
   color: #17afe3;
   font-weight: 600;
   font-size: 24px;
- }
+}
 
 
- .modelComponent2{
+.modelComponent2{
   background: white;
   cursor: pointer;
   border-radius: 15px;
@@ -1051,7 +1051,7 @@ background: linear-gradient(to right, #FFC371, #FF5F6D);
   color: #3ec6c9;
   font-weight: 600;
   font-size: 24px;
- }
+}
 
 
 
@@ -1084,96 +1084,96 @@ background: linear-gradient(to right, #FFC371, #FF5F6D);
 
 
 .section-bg2{
-  
+
   background: #f9f9fa;
   height:auto;
   width:100%;
-  }
-  .boxes5 ul{
-    display:block;
-    width:100%;
-    height:inherit;
-  }
-  .boxes5 ul{
-    list-style-type:none;
-  }
-  .boxes5 ul li:nth-child(1)
-  {
-    position:absolute;
-    left:10%;
-    height:30px;
-    width:30px;
-    background: rgb(62, 198, 201);
-  }
-  .boxes5 ul li:nth-child(2)
-  {
-    position:absolute;
-    left:25%;
-    height:45px;
-    width:45px;
-    background: rgb(62, 198, 201);
-  }
-  .boxes5 ul li:nth-child(3)
-  {
-    position:absolute;
-    left:40%;
-    height:35px;
-    width:35px;
-    background: rgb(62, 198, 201);
-  }
-  .boxes5 ul li:nth-child(4)
-  {
-    position:absolute;
-    left:55%;
-    height:20px;
-    width:20px;
-        background: rgb(62, 198, 201);
-  }
-  .boxes5 ul li:nth-child(5)
-  {
-    position:absolute;
-    left:70%;
-    height:30px;
-    width:30px;
-        background: rgb(62, 198, 201);
-  }
-  .boxes5 ul li:nth-child(6)
-  {
-    position:absolute;
-    left:85%;
-    height:20px;
-    width:20px;
-        background: rgb(62, 198, 201);
-  }
-  .boxes5 ul li:nth-child(7)
-  {
-    position:absolute;
-    left:90%;
-    height:20px;
-    width:20px;
-        background: rgb(62, 198, 201);
-  }
-  .boxes5 ul li{
-    animation:animate 15s linear 2s infinite;
-    -webkit-animation:animate 15s linear 2s infinite;
 }
-  
-  @keyframes animate{
-    from{
-      transform: translateY(+1100%) rotate(180deg)    ;
-      -webkit-transform: translateY(+1100%) rotate(180deg)    ;
-      -moz-transform: translateY(+1100%) rotate(180deg)    ;
-      -ms-transform: translateY(+1100%) rotate(180deg)    ;
-      -o-transform: translateY(+1100%) rotate(180deg)    ;
+.boxes5 ul{
+  display:block;
+  width:100%;
+  height:inherit;
 }
-    to{
-      transform: translateY(-90%)        rotate(360deg)    ;
-      -webkit-transform: translateY(-90%)        rotate(360deg)    ;
-      -moz-transform: translateY(-90%)        rotate(360deg)    ;
-      -ms-transform: translateY(-90%)        rotate(360deg)    ;
-      -o-transform: translateY(-90%)        rotate(360deg)    ;
+.boxes5 ul{
+  list-style-type:none;
 }
+.boxes5 ul li:nth-child(1)
+{
+  position:absolute;
+  left:10%;
+  height:30px;
+  width:30px;
+  background: rgb(62, 198, 201);
+}
+.boxes5 ul li:nth-child(2)
+{
+  position:absolute;
+  left:25%;
+  height:45px;
+  width:45px;
+  background: rgb(62, 198, 201);
+}
+.boxes5 ul li:nth-child(3)
+{
+  position:absolute;
+  left:40%;
+  height:35px;
+  width:35px;
+  background: rgb(62, 198, 201);
+}
+.boxes5 ul li:nth-child(4)
+{
+  position:absolute;
+  left:55%;
+  height:20px;
+  width:20px;
+  background: rgb(62, 198, 201);
+}
+.boxes5 ul li:nth-child(5)
+{
+  position:absolute;
+  left:70%;
+  height:30px;
+  width:30px;
+  background: rgb(62, 198, 201);
+}
+.boxes5 ul li:nth-child(6)
+{
+  position:absolute;
+  left:85%;
+  height:20px;
+  width:20px;
+  background: rgb(62, 198, 201);
+}
+.boxes5 ul li:nth-child(7)
+{
+  position:absolute;
+  left:90%;
+  height:20px;
+  width:20px;
+  background: rgb(62, 198, 201);
+}
+.boxes5 ul li{
+  animation:animate 15s linear 2s infinite;
+  -webkit-animation:animate 15s linear 2s infinite;
+}
+
+@keyframes animate{
+  from{
+    transform: translateY(+1100%) rotate(180deg)    ;
+    -webkit-transform: translateY(+1100%) rotate(180deg)    ;
+    -moz-transform: translateY(+1100%) rotate(180deg)    ;
+    -ms-transform: translateY(+1100%) rotate(180deg)    ;
+    -o-transform: translateY(+1100%) rotate(180deg)    ;
   }
+  to{
+    transform: translateY(-90%)        rotate(360deg)    ;
+    -webkit-transform: translateY(-90%)        rotate(360deg)    ;
+    -moz-transform: translateY(-90%)        rotate(360deg)    ;
+    -ms-transform: translateY(-90%)        rotate(360deg)    ;
+    -o-transform: translateY(-90%)        rotate(360deg)    ;
+  }
+}
 
 
 
@@ -1292,20 +1292,20 @@ background: linear-gradient(to right, #FFC371, #FF5F6D);
 
 .read-more-btn {
   border: 2px solid #0dcaf0;
-    font-size: 14px;
-    cursor: pointer;
-    padding: 10px 20px;
-    display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    font-weight: 600;
-    position: relative;
-    transition: all 0.3s ease 0s;
-    background: rgb(62, 198, 201);
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    margin-top: 25px;
-    text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  position: relative;
+  transition: all 0.3s ease 0s;
+  background: rgb(62, 198, 201);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-top: 25px;
+  text-decoration: none;
 }
 
 .read-more-btn:hover {
