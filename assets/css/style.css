@@ -963,16 +963,6 @@ section {
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
 .model1{
   display: flex;
   justify-content: center;
@@ -1080,9 +1070,6 @@ section {
   position: relative;
 }
 
-
-
-
 .section-bg2{
 
   background: #f9f9fa;
@@ -1174,39 +1161,6 @@ section {
     -o-transform: translateY(-90%)        rotate(360deg)    ;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .shape-box {
   display: inline-block;
   position: relative;
@@ -1341,44 +1295,6 @@ section {
 .shape-box_half:hover>.after {
   opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
