@@ -460,6 +460,7 @@ h6 {
 }
 
 @media (max-width: 575px) {
+
   #hero .hero-img img {
     width: 80%;
   }
@@ -1167,7 +1168,7 @@ section {
   z-index: 1;
   max-width: 500px;
   height: 430px;
-  margin: 30px 10px 30px;
+  /* margin: 30px 10px 30px; */
   box-shadow: 0 6px 30px 0 rgba(0, 0, 0, .12);
   overflow: hidden;
   width: 100%;
@@ -1391,7 +1392,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  padding-top: 8%;
 }
 
 .portfolio-details .portfolio-details-slider img {
@@ -1408,11 +1409,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #16df7e;
+  border: 1px solid #3ec6c9;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #16df7e;
+  background-color: #3ec6c9;
 }
 
 .portfolio-details .portfolio-info {
@@ -1439,7 +1440,7 @@ section {
 }
 
 .portfolio-details .portfolio-description {
-  padding-top: 30px;
+  padding-top: 0px;
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1451,7 +1452,11 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-
+@media (max-width: 575px) {
+  .portfolio-details {
+    padding-top: 22%;
+}
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
